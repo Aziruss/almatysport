@@ -54,13 +54,22 @@ li, a {
 
 .top-nav {
 	float: right;
-display: table;
+display: inline;
 margin: 0px;
 padding-top:0px;
-border: 1px solid rgba(255, 255, 255, 0.1)
+border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .eyes {
+text-align: center;
 	width: 75px;
-	height:45px;
+	height: 45px;
 	background-color: white;
+}
+.table_row1 {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+.table_row2 {
+	text-align: center;
+	width: 56px;
+	height: 45px;
 }
