@@ -98,13 +98,21 @@ letter-spacing: -0.2px;
 justify-content: center;
 flex-wrap: wrap;
 }
-.flex-container2 > div {
+.flex-container2 >div{
 	
 	margin: 0;
-	padding: 0;
+	padding-left: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	font-size: 10px;
-	text-align: center;
 	width: 360px;
-	line-height: 446px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	line-height: 0px;
+}
+.flex-container2 img{
+	max-width: : 100%;
+	padding: 0;
+	position: absolute;
+	margin: 0;
+}
+
 }
